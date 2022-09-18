@@ -5,22 +5,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-shadow: 0 0 4px #9CA3AF;
 
-    
+
 }
-#secondary{
+
+#secondary {
     position: absolute;
     width: 550px;
     height: 729px;
-    background: #D1D5DB; 
+    background: #D1D5DB;
 }
-#main{
+
+#main {
     position: absolute;
     width: 550px;
     height: 285px;
     background: #6943FF;
 }
-#btn-el{
+
+#btn-el {
     position: absolute;
     width: 117px;
     height: 42px;
@@ -34,10 +38,12 @@ body {
     border-radius: 5px;
     border: none;
 }
-#btn-el:hover{
+
+#btn-el:hover {
     background-position: right;
 }
-.heading{
+
+.heading {
     position: absolute;
     width: 448.4px;
     height: 38px;
@@ -52,20 +58,19 @@ body {
     letter-spacing: -0.03em;
     color: #FFFFFF;
 }
-.border{
+
+.border {
     box-sizing: border-box;
-
-position: absolute;
-width: 117px;
-height: 83px;
-left: 217px;
-top: 101px;
-
-border: 2px solid #B295FF;
-border-radius: 5px;
+    position: absolute;
+    width: 117px;
+    height: 83px;
+    left: 217px;
+    top: 101px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
 }
-input{
-    /* number to convert */
+
+input {
     position: absolute;
     width: 211px;
     height: 51.23px;
@@ -78,13 +83,11 @@ input{
     font-weight: 800;
     font-size: 58px;
     line-height: 24px;
-    /* or 42% */
-
     text-align: center;
-
     color: #FFFFFF;
 }
-.cards{
+
+.cards {
     position: absolute;
     width: 500px;
     height: 108.57px;
@@ -93,13 +96,16 @@ input{
     background: #FFFFFF;
     border-radius: 4.68077px 0px 0px 0px;
 }
-#cards2{
+
+#cards2 {
     top: 453px;
 }
-#cards3{
+
+#cards3 {
     top: 585px;
 }
-.supptext{
+
+.supptext {
     position: absolute;
     width: 346px;
     height: 25px;
@@ -113,7 +119,8 @@ input{
     text-align: center;
     color: #5A537B;
 }
-.output{
+
+.output {
     position: absolute;
     width: 346px;
     height: 25px;
